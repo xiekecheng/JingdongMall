@@ -1,0 +1,14 @@
+div{
+    background-color: red;
+}
+p{
+    color: red;
+}
+
+@mixin bor{
+    border: 1px solid black;
+}
+
+div{
+    @include bor();
+}
