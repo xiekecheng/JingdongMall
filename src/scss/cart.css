@@ -47,6 +47,12 @@ header nav .fr li {
   padding: 0 10px;
 }
 
+header nav .fr li a {
+  color: #999;
+  line-height: 30px;
+  font-size: 12px;
+}
+
 header nav .fr .space {
   width: 1px;
   height: 12px;
@@ -54,11 +60,6 @@ header nav .fr .space {
   background: #ccc;
   padding: 0;
   margin-top: 9px;
-}
-
-header nav .fr a {
-  color: #999;
-  line-height: 30px;
 }
 
 header nav .fr li:nth-child(1) a {
@@ -82,4 +83,13 @@ header .logo-line .logo {
   width: 134px;
   height: 42px;
   background-image: url(../images/jdlogo-201708-@1x.png);
+}
+
+header .logo-line .search {
+  float: right;
+  border: 2px solid #c91623;
+  background: #c91623;
+  height: 24px;
+  margin-top: 30px;
+  overflow: hidden;
 }

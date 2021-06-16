@@ -45,7 +45,11 @@ header {
                 float: left;
                 // color: #999;
                 padding: 0 10px;
-
+                a {
+                    color: #999;
+                    line-height: 30px;
+                    font-size: 12px;
+                }
             }
 
             .space {
@@ -58,10 +62,7 @@ header {
 
             }
 
-            a {
-                color: #999;
-                line-height: 30px;
-            }
+
 
             li:nth-child(1) {
 
@@ -88,6 +89,14 @@ header {
             width: 134px;
             height: 42px;
             background-image: url(../images/jdlogo-201708-@1x.png);
+        }
+        .search{
+            float: right;
+            border: 2px solid #c91623;
+            background: #c91623;
+            height: 24px;
+            margin-top: 30px;
+            overflow: hidden;
         }
     }
 
